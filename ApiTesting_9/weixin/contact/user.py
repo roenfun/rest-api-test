@@ -1,6 +1,6 @@
 import requests
 
-from weixin.contact.token import Weixin
+from weixin.contact.weixin_token import Weixin
 
 
 class User:
