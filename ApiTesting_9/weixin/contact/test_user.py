@@ -43,8 +43,8 @@ class TestUser:
         assert r['errcode'] == 0
 
     def test_list(self):
-        r = self.user.list()
+        r = self.user.simple_list()
         logging.debug(r)
 
-        r = self.user.list(department_id=65)
+        r = self.user.simple_list(department_id=65)
         logging.debug(r)
