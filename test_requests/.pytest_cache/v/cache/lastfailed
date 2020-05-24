@@ -1,0 +1,5 @@
+{
+  "test_demo.py::test_get_hook": true,
+  "test_demo.py::test_post": true,
+  "test_demo.py::test_session": true
+}
